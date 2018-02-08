@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Assignment1</string>
+    <string name="question_text">Can a swallow fly?</string>
+    <string name="a_button">A</string>
+    <string name="b_button">B</string>
+    <string name="c_button">C</string>
+    <string name="d_button">D</string>
+    <string name="e_button">E</string>
+    <string name="correct_toast">Correct!</string>
+    <string name="incorrect_toast">Wrong!</string>
+    <string name="studentid">Student ID</string>
+    <string name="email">Student Name</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+
+</resources>

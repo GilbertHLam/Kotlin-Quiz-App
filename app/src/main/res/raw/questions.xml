@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exam>
+    <email>
+        gilberthlam@cmail.carleton.ca
+    </email>
+    <question>
+        <question_text>
+            Which of the JCF interfaces would be the most useful if we want to store a collection of students enrolled in COMP2402 so that we can quickly check if a student is enrolled in COMP2402?
+        </question_text>
+        <a>Collection</a>
+        <b>Set</b>
+        <c>SortedSet</c>
+        <d>Map</d>
+        <e>SortedMap</e>
+    </question>
+    <question>
+        <question_text>
+            What if we also want to be able to quickly output a list of students, sorted by (lastname,firstname)?
+        </question_text>
+        <a>Collection</a>
+        <b>Set</b>
+        <c>SortedSet</c>
+        <d>Map</d>
+        <e>SortedMap</e>
+    </question>
+    <question>
+        <question_text>
+            What if, in addition, we also want to store some auxiliary information (e.g., a mark) with each student?
+        </question_text>
+        <a>Collection</a>
+        <b>Set</b>
+        <c>SortedSet</c>
+        <d>Map</d>
+        <e>SortedMap</e>
+    </question>
+    <question>
+        <question_text>
+            A Bag is like a Set except that equal elements can be stored more than once. Which of the following is best suited to implement a Bag(T)?
+        </question_text>
+        <a>Set(T)</a>
+        <b>Map(T, Integer)</b>
+        <c>Map(T, List(T))</c>
+        <d>SortedSet(T)</d>
+        <e>Either (b) or (c) depending on what behaviour we want if we add two elements that are equal but not identical</e>
+    </question>
+    <question>
+        <question_text>
+            The running time of the methods get(i) and remove(i) for an ArrayList are
+        </question_text>
+        <a>O(1) and O(1), respectively</a>
+        <b>O(1 + i) and O(1 + i), respectively</b>
+        <c>O(i) and O(1 + i), respectively</c>
+        <d>O(1 + i) and O(1 + size() - i), respectively</d>
+        <e>O(1) and O(1 + size()−i), respectively</e>
+    </question>
+    <question>
+        <question_text>
+            The running time of the methods get(i) and remove(i) for a LinkedList are
+        </question_text>
+        <a>O(1 + i) and O(1 + i), respectively</a>
+        <b>O(1) and O(1 + size() - i), respectively</b>
+        <c>O(1 + size() - i) and O(i), respectively</c>
+        <d>O(1 + min{i,size()−i}) and O(1 + min{i,size()−i}), respectively </d>
+        <e>O(1) and O(1 + size()−i), respectively</e>
+    </question>
+    <question>
+        <question_text>
+            If m = 210 then the binary representations of m and m−1 are
+        </question_text>
+        <a>10000000000 and 09999999999, respectively</a>
+        <b>10000000000 and 01111111111, respectively</b>
+        <c>01111111111 and 10000000000, respectively</c>
+        <d>10101010001 and 00101010111, respectively</d>
+        <e>10000000000 and 11111111111, respectively</e>
+    </question>
+    <question>
+        <question_text>
+            If a RootishArrayStack has 10 blocks (so b.size() = 10), then how many elements can it store?
+        </question_text>
+        <a>90</a>
+        <b>110</b>
+        <c>45</c>
+        <d>55</d>
+        <e>none of the above</e>
+    </question>
+    <question>
+        <question_text>
+            In a RootishArrayStack, a call to get(13) will return
+        </question_text>
+        <a>blocks.get(0)[13]</a>
+        <b>blocks.get(13)[0]</b>
+        <c>blocks.get(4)[3]</c>
+        <d>blocks.get(3)[4]</d>
+        <e>blocks.get(5)[4]</e>
+    </question>
+    <question>
+        <question_text>
+            What is the running-time of add(i,x) and remove(i) in a DLList?
+        </question_text>
+        <a>O(1 + i) and O(1 + i), respectively </a>
+        <b>O(1) and O(1 + size()−i), respectively </b>
+        <c>O(1 + size()−i) and O(1), respectively</c>
+        <d>O(1 + min{i,size()−i}) and O(1 + min{i,size()−i}), respectively </d>
+        <e>O(1) and O(1 + size()−i), respectively </e>
+    </question>
+</exam>
